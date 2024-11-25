@@ -13,4 +13,9 @@ my_class_points = [100, 40, 34, 57, 29, 72, 57, 88]
 my_points = 75
 
 def better_than_average(class_points, your_points):
-    print("Hello World!")
+    len_class_points = len(class_points)
+    class_average = (sum(class_points)) / len_class_points
+    print(f"The length of the class_points array is: {len_class_points}")
+    print(f"The class average is: {class_average}")
+    
+better_than_average(my_class_points, my_points)
