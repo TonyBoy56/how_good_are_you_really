@@ -17,5 +17,9 @@ def better_than_average(class_points, your_points):
     class_average = (sum(class_points)) / len_class_points
     print(f"The length of the class_points array is: {len_class_points}")
     print(f"The class average is: {class_average}")
+    if class_average < your_points:
+        print(True)
+    else: 
+        print(False)
     
 better_than_average(my_class_points, my_points)
