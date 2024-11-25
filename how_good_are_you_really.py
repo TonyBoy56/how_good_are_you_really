@@ -9,4 +9,8 @@
 # Note:
 # Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
 
-print("Hello World!")
+my_class_points = [100, 40, 34, 57, 29, 72, 57, 88]
+my_points = 75
+
+def better_than_average(class_points, your_points):
+    print("Hello World!")
